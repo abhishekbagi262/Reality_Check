@@ -1,0 +1,25 @@
+# Environments
+.venv/
+.venv-*/
+env/
+venv/
+ENV/
+
+# Python cache & artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# Streamlit secrets (NEVER commit live API keys)
+.streamlit/secrets.toml
+
+# Local temp & logs
+*.tmp
+*.log
+.env
+.DS_Store
+Thumbs.db
+*.zip
